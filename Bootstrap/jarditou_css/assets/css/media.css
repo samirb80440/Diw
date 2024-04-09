@@ -1,0 +1,26 @@
+
+
+@media screen and (max-width:1000px) 
+{ 
+    html
+    { 
+        font-size:auto; 
+    } 
+    table{
+        max-width: 100%;
+       overflow: scroll;    
+    }
+    img 
+{
+     max-width: 100%;
+     height: auto;
+}
+label{
+    max-width: 100%;
+}
+fieldset{
+    max-width: 100%;
+}
+
+}  
+

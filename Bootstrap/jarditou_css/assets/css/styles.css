@@ -1,0 +1,82 @@
+ul {
+    border: 20px solid black;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    width: 100;
+}
+
+a {
+    color: white;
+    text-align: center;
+    margin: 5px;
+}
+
+.tete {
+    display: flex;
+    align-items: center;
+}
+
+.Logo {
+    display: flex;
+    flex: 15%;
+}
+
+.jardin {
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    flex: 85%
+}
+
+.promotion {
+    width: 100%;
+
+}
+.paragraphe{
+    border: 0px;
+    display:flex;
+    height:auto
+}
+.texte,.colone{
+    border: 0cap;
+    display: inline-block;
+}
+
+.colonne{
+    border: lightgray solid;
+    background-color: lightgray;
+    display: flex;
+    flex: 30%;
+    vertical-align: right;
+}
+.texte {
+    display: flex;
+    flex-direction: column;
+    flex:70%
+}
+form{
+    flex: 50%;
+    height: auto;
+}
+table{
+ border: 1px black solid;
+  right: auto;
+  width: auto;
+  text-align: center;
+  vertical-align: middle;
+}
+th,td{
+    border: 1px black solid;
+}
+
+
+
+
+
+
+
+   
+    
+

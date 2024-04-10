@@ -14,7 +14,6 @@
         <div class="row">
             <div class="col-8">
             <img class="Logo" src="images/jarditou_logo.jpg" alt="Logo Jarditou" title="Logo Jarditou" width="200px"></div>
-            <div class="col">
             <div class="col-4 h3">Tout le jardin</div>
         </div>
 
@@ -45,16 +44,31 @@
                 <p>*Ces zones sont obligatoires</p>
                 <fieldset>
                     <legend>Vos Coordonées</legend>
-                    <br><label for="nom">Votre nom* : </label><input type="text" name="nom" id="nom" required>
-                    <br><label for="prenom">Votre prénom*: </label><input type="text" name="prenom" id="prenom"
-                        required>
-                    <br><label for="Sexe">Sexe* :</label><input type="radio" name="Sexe" value="Féminin" id="Sexe"
-                        required>Féminin
-                    <input type="radio" name="Sexe" value="Masculin" required>Masculin
-                    <br><label for="date">Date de naissance*: </label><input type="date" name="ddn" id="date" required>
-                    <br><label for="Codepostal">Code postal*: </label><input type="text" name="Codepostal"
-                        id="Codepostal" required>
-                    <br><label for="Adresse">Adresse :</label><input type="text" name="Adresse" id="Adresse">
+                    <div class="form-group">
+                    <br><label for="nom">Votre nom* : </label><input type="text"  class="form-control" name="nom" id="nom" required>
+                    </div>
+                    <div class="form-group">
+                    <br><label for="prenom">Votre prénom*: </label><input type="text"  class="form-control"   name="prenom" id="prenom" required>
+                    </div>
+                    <br><label class="form-check-label"for="Sexe">Sexe* :</label> 
+                    <div class="form-check form-check-inline">
+                        <input  class="form-check-input" type="radio" name="Sexe" value="Féminin" id="Sexe" required>
+                        <label for="Sexe" class="form-check-label">Féminin</label>      
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input type="radio" name="Sexe" value="Masculin" class="form-check-input"  id="Sexe1">
+                        <label class="form-check-label"for="Sexe1">Masculin</label>
+                    </div>
+                    <div class="form-group">
+                    <br><label for="date">Date de naissance*: </label><input type="date"  class="form-control" name="ddn" id="date" required>
+                    </div>
+                    <div class="form-group">
+                    <br><label for="Codepostal">Code postal*: </label>
+                    <input type="text" name="Codepostal" class="form-control" id="Codepostal" required>
+                    </div>
+                    <div class="form-group">                   
+                        <br><label for="Adresse">Adresse :</label><input type="text"  class="form-control" name="Adresse" id="Adresse">
+                    </div> 
                    <div class="form-group">
                     <br><label for="Ville">Ville :</label>
                     <input type="text" class="form-control"name="Ville" id="Ville">
@@ -103,7 +117,5 @@
                 <li class="nav-item"><a class="nav-link" href="PageAcceuil.html">Plan du site</a></li>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-
 </body>
-
 </html>

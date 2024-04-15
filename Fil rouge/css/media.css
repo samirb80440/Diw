@@ -1,5 +1,4 @@
 .parent {
-    background: #000;
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     grid-template-rows: repeat(6, 1fr);
@@ -22,3 +21,7 @@
     .plat3 { grid-area: 5 / 6 / 6 / 7; }
     .réseauxsociaux { grid-area: 6 / 2 / 7 / 6; }
     
+    body {
+
+    background: #000;
+    }

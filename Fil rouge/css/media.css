@@ -11,7 +11,10 @@
 
  background: #000;
   }
-
+   .imagebanniere{
+      width: 100vw;
+      height: 20vw;
+   }
     
     #banniere {
         grid-area: 2 / 1 / 3 / 6; }

@@ -1,27 +1,4 @@
-.parent {
-    display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: repeat(6, 1fr);
-    grid-column-gap: 12px;
-    grid-row-gap: 24px;
-    }
-    
-    .navbar { grid-area: 1 / 1 / 2 / 7; }
-    .navbartexte{ grid-area: 1 / 1 / 2 / 7; }
-    .imagerecherche { grid-area: 2 / 1 / 3 / 7; }
-    .barrerecherche { grid-area: 2 / 3 / 3 / 6; }
-    .cat1{ grid-area: 3 / 2 / 4 / 3; }
-    .cact2 { grid-area: 3 / 4 / 4 / 5; }
-    .cat3 { grid-area: 3 / 6 / 4 / 7; }
-    .cat4{ grid-area: 4 / 2 / 5 / 3; }
-    .cat5 { grid-area: 4 / 4 / 5 / 5; }
-    .cat6 { grid-area: 4 / 6 / 5 / 7; }
-    .lat1 { grid-area: 5 / 2 / 6 / 3; }
-    .pla2 { grid-area: 5 / 4 / 6 / 5; }
-    .plat3 { grid-area: 5 / 6 / 6 / 7; }
-    .réseauxsociaux { grid-area: 6 / 2 / 7 / 6; }
-    
-    body {
+   body {
 
     background: #000;
     }

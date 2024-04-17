@@ -21,7 +21,7 @@
       <div class="collapse navbar-collapse justify-content-center col-12" id="collapsibleNavbar">
       <ul class="navbar-nav">
               <li class="textnav nav-item px-5">
-                  <a class="nav-link active" href="#" title="Accueil">Accueil</a>
+                  <a class="nav-link" href="#" title="Accueil">Accueil</a>
               </li>
               <li class="textnav nav-item px-5">
                   <a class="nav-link" href="Categorie.html" title="Categorie">Categorie</a>
@@ -30,60 +30,50 @@
                   <a class="nav-link" href="Plat.html" title="Plat">Plat</a>
               </li>
               <li class="textnav nav-item px-5">
-                  <a class="nav-link" href="Formulaire.html" title="contact">contact</a>
+                  <a class="nav-link active" href="#" title="contact">contact</a>
               </li>
           </ul>
       </div>
   </nav>
+  <div class="container-fluid p-0">
+    <div id="parent">
+        <div id="banniere" class="row g-0">
+        <img class="imagebanniere img-fluid" src="images_the_district/fosyyyy.jpg" alt="banniere">
+        </div>
 </header>
-<div class="container-fluid p-0">
-  <div id="parent">
-      <div id="banniere" class="row g-0">
-      <img class="imagebanniere img-fluid" src="images_the_district/fosyyyy.jpg" alt="banniere">
-      </div>
-      <div id="recherche" class="d-none d-sm-flex">
-          <form class="col-12" role="search">
-              <input class="form-control me-2" type="search" placeholder="Recherche..." aria-label="Search">
-          </form>
-      </div>
-  </div>
+<div id="insertbgimg">
+    <div id="insertcommande"></div>
+    <form id="form">
+        <div class="container mt-3">
+            <div class="row mb-3">
+                <div class="col-12 mb-3">
+                    <label for="Nom" class="col-3 couleur form-label">Nom et Prénom*:</label>
+                    <input type="text" name="nom" class="form-control" id="Nom" >
+                </div>
+                <div class="col-6 mb-3">
+                    <label for="Email" class="col-3  couleur form-label">Email*:</label>
+                    <input type="email" name="Email" class="form-control" id="Email">
+                </div>
+                <div class="col-6 mb-3">
+                    <label for="tel" class="col-3 couleur form-label">Téléphone*:</label>
+                    <input type="text" name="tel" class="form-control" id="Tel">
+                </div>
+                <div class="col-12 mb-3">
+                    <label for="demande" class="col-3 couleur form-label">Votre Demande*:</label>
+                    <textarea cols="500" rows="4" name="demande" class="form-control" id="Demande"></textarea>
+                </div>
+                <div class="container">
+                <div class="row justify-content-between mt-3">
+                    <button class="btn btn-succes color-B09595 rounded-pill col-3" type="reset" id="precedent">Annuler</button>
+                    <button class="btn btn-succes color-B09595 rounded-pill col-3" type="submit"  id="suivant">Envoyer</button>
+                </div>
+            </div>
+            </div>
+        </div>
+    </form>
 </div>
-   <div id="centre" class="container-fluid p-0 d-xs-flex">
-          <div class="row g-0 mt-xl-3">
-              <div class="col-12 col-sm-6 col-xl-5">
-                  <img class="imageanime imagecat img-fluid" src="images_the_district/food/cesar_salad.jpg" alt="salad">
-              </div>
-              <div class="col-12 col-sm-6 col-xl-4">
-                  <img class="imageanime imagecat img-fluid" src="images_the_district/food/cheesburger.jpg" alt="burger">
-              </div>
-              <div class="col-12 col-sm-6 col-xl-3">
-                  <img class="imageanime imagecat img-fluid" src="images_the_district/menu-pizza.jpg" alt="pizza">
-              </div>
-          </div>
-          <div class="row g-0 mt-xl-3">
-              <div class="col-12 col-sm-6 col-xl-5">
-                  <img class="imageanime imagecat img-fluid" src="images_the_district/food/courgettes_farcies.jpg" alt="courgettes">
-              </div>
-              <div class="col-12 col-sm-6 col-xl-4">
-                  <img class="imageanime imagecat img-fluid" src="images_the_district/food/pizza-margherita.jpg" alt="pizza">
-              </div>
-              <div class="col-12 col-sm-6 col-xl-3">
-                  <img class="imageanime imagecat img-fluid" src="images_the_district/food/Food-Name-3461.jpg" alt="wrap">
-              </div>
-          </div>
-          <div class="row g-0 mt-xl-3">
-              <div class="col-12 col-sm-6 col-xl-5">
-                  <img class="imageanime imageplat img-fluid" src="images_the_district/food/Food-Name-6340.jpg" alt="burger">
-              </div>
-              <div class="col-12 col-sm-6 col-xl-4">
-                  <img class="imageanime imageplat img-fluid" src="images_the_district/food/spaghetti-legumes.jpg" alt="spagetti">
-              </div>
-              <div class="col-12 d-sm-none d-xl-flex col-xl-3">
-                  <img class="imageanime imageplat img-fluid" src="images_the_district/food/lasagnes_viande.jpg" alt="lasagnes">
-              </div>
-          </div>
       <footer>
-          <nav id="navbot" class="navbar navbar-expand bg-danger navbar-dark mt-3 rounded-pill rounded-xs-none ">
+          <nav id="navbot" class="navbar navbar-expand bg-danger navbar-dark mt-3 rounded-pill rounded-xs-none fixed-bottom ">
               <div class="collapse navbar-collapse justify-content-center col-12" id="collapsibleNavbar2">
                   <ul class="navbar-nav mx-xl-2">
                       <li class="nav-item">

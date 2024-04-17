@@ -76,17 +76,7 @@
     font-family:Arial, Helvetica, sans-serif
 
        }
- .imageanime {
-  transition: 1s ease;
-        }
-        .imageanime:hover{
-        -webkit-transform: scale(1.1);
-        -ms-transform: scale(1.1);
-        transform: scale(1.1);
-        transition: 1s ease;
-        }
-     
-        @media screen and (max-width: 926px) 
+    @media screen and (max-width: 926px) 
 {
     #navbot{
         margin-left: 0vw;

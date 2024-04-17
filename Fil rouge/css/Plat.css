@@ -25,16 +25,18 @@ body {
                 margin-top: 10vw; }
                 
     .imagecat {
-        border-radius: 14%;
-        width: 12vw;
-        height: 20vh;
-    }
+         border-radius: 16%;
+         width: 50%;
+         height: 25vh;
+        }
 
     .card {
        background-color: #E37D1F;
         height: 21vh;
         border-radius: 16%;
+        
     }
+    
 
 
     #navbot{

@@ -29,20 +29,22 @@ body {
 
 .imagecat {
     border-radius: 16%;
-    width: 10,5vw;
+    width: 10, 5vw;
     height: 20vh;
-}    
+}
 
 .card {
     height: 100%;
-    width: auto; /* Assure que toutes les cartes dans un même row ont la même hauteur */
+    width: auto;
+    /* Assure que toutes les cartes dans un même row ont la même hauteur */
     background-color: #E37D1F;
-  }
+}
 
-  .card-body {
-    height: calc(100% - 200px); /* Prend tout l'espace disponible moins la hauteur de l'image */
+.card-body {
+    height: calc(100% - 200px);
+    /* Prend tout l'espace disponible moins la hauteur de l'image */
     border-radius: 16%;
-  }
+}
 
 
 

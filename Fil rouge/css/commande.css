@@ -1,23 +1,23 @@
 #parent {
     display: grid;
+    
     grid-template-columns: repeat(5, 1fr);
+    
     /*horizontal*/
+    
     grid-template-rows: 0.5fr 0, 6fr;
+    
     /*vertical*/
     grid-column-gap: 0px;
     grid-row-gap: 0px;
 }
 
-body {
-    background: #000;
+#insertbgimg {
+    background-image:url(../images_the_district/ibg.jpg);
+    background-size: 100vw;
+    
 }
 
-.imagebanniere {
-    width: 150vw;
-    height: 20vw;
-    background-image:url("images_the_district/fosyyyy.jpg");
-
-}
 
 .couleur {
     color: white

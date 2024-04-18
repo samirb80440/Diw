@@ -50,7 +50,9 @@ body {
 }
 
 
-
+.color{
+    color: #EB1A1A;
+}
 
 #video {
     width: 100%;

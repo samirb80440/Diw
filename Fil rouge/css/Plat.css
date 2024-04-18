@@ -34,12 +34,18 @@ body {
 }    
 
 .card {
+    height: 100%;
+    width: auto; /* Assure que toutes les cartes dans un même row ont la même hauteur */
     background-color: #E37D1F;
-    height: 21vh;
-    width: 35vw;
-  
+  }
 
-}
+  .card-body {
+    height: calc(100% - 200px); /* Prend tout l'espace disponible moins la hauteur de l'image */
+    border-radius: 16%;
+  }
+
+
+
 
 
 .imageplat {
@@ -50,9 +56,6 @@ body {
 }
 
 
-.color{
-    color: #EB1A1A;
-}
 
 #video {
     width: 100%;

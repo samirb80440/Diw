@@ -38,6 +38,9 @@ body{
 .couleur {
     color: white
 }
+p{
+    color: #F60707;
+}
 
 #banniere {
     grid-area: 2 / 1 / 3 / 6;

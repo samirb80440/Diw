@@ -10,10 +10,10 @@
 
  background: #000;
   }
-   #imagebanniere{
-      width: 150vw;
-      height: 20vw;
-   }
+  .imagebanniere {
+    width: 150vw;
+    height: 20vw;
+}
  
 
     #banniere {

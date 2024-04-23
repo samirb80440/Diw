@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="fr">
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -9,6 +10,7 @@
     <link rel="shortcut icon" type="image/png" href="/images_the_district/the_district_brand/favicon.png">
     <title>District</title>
 </head>
+
 <body>
     <header id="navbar">
         <nav class="navbar navbar-expand-sm bg-danger navbar-dark fixed-top ">
@@ -48,19 +50,23 @@
         <div class="row justify-content-between">
             <div class="block_text-img col-12 col-xl-5 mt-3">
                 <div class="row card">
-                    <img class="card-img-top imagecat img-fluid col-xl-6" src="/images_the_district/food/cheesburger.jpg" alt="platcheesburger">
+                    <img class="card-img-top imagecat img-fluid col-xl-6"
+                        src="/images_the_district/food/cheesburger.jpg" alt="platcheesburger">
                     <div class="col-xl-4 card-body">
-                        <h4 class="card-title">le vraie burger</h4><p class="card-text">Plat Plat Plat</p>
-                        <a href="#" class="btn btn-primary">Commander</a>
+                        <h4 class="card-title">le vraie burger</h4>
+                        <p class="card-text">Plat Plat Plat</p>
+                        <a href="#" class="btn btn-light">Commander</a>
                     </div>
                 </div>
             </div>
             <div class="block_text-img col-12 col-xl-5 mt-3">
                 <div class="row card">
-                    <img class="card-img-top imagecat img-fluid col-xl-6" src="/images_the_district/food/Food-Name-433.jpeg" alt="platcheesburgermcdo">
+                    <img class="card-img-top imagecat img-fluid col-xl-6"
+                        src="/images_the_district/food/Food-Name-433.jpeg" alt="platcheesburgermcdo">
                     <div class="col-xl-4 card-body">
-                        <h4 class="card-title">burger</h4><p class="card-text">Plat Plat Plat</p>
-                        <a href="#" class="btn btn-primary">Commander</a>
+                        <h4 class="card-title">burger</h4>
+                        <p class="card-text">Plat Plat Plat</p>
+                        <a href="#" class="btn btn-light">Commander</a>
                     </div>
                 </div>
             </div>
@@ -68,27 +74,71 @@
         <div class="row justify-content-between">
             <div class="block_text-img col-12 col-xl-5 mt-3">
                 <div class="row card">
-                    <img class="card-img-top imagecat img-fluid col-xl-6" src="/images_the_district/food/hamburger.jpg" alt="plathamburger1">
+                    <img class="card-img-top imagecat img-fluid col-xl-6" src="/images_the_district/food/hamburger.jpg"
+                        alt="plathamburger1">
                     <div class="col-xl-4 card-body">
-                        <h4 class="card-title">le burger roquette</h4><p class="card-text">Plat Plat Plat</p>
-                        <a href="#" class="btn btn-primary">Commander</a>
+                        <h4 class="card-title">le burger roquette</h4>
+                        <p class="card-text">Plat Plat Plat</p>
+                        <a href="#" class="btn btn-light">Commander</a>
                     </div>
                 </div>
             </div>
             <div class="block_text-img col-12 col-xl-5 mt-3">
                 <div class="row card">
-                    <img class="card-img-top imagecat img-fluid col-xl-6" src="/images_the_district/food/Food-Name-6340.jpg" alt="plathamburger2">
+                    <img class="card-img-top imagecat img-fluid col-xl-6"
+                        src="/images_the_district/food/Food-Name-6340.jpg" alt="plathamburger2">
                     <div class="col-xl-4 card-body">
-                        <h4 class="card-title">hamburger avec un bison entier</h4><p class="card-text">Plat Plat Plat</p>
-                        <a href="#" class="btn btn-primary">Commander</a>
+                        <h4 class="card-title">hamburger avec un bison entier</h4>
+                        <p class="card-text">Plat Plat Plat</p>
+                        <a href="#" class="btn btn-light">Commander</a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+    <div id="insertbgimg">
+        <form id="form" class="container mt-3">
+            <div class="row m-3">
+                <div id="insertcommande" class="d-flex justify-content-center">
+                </div>
+                <div class="col-1" id="ChoixQuantité"><label for="quantite" class="labelt form-label">Quantité</label>
+                    <select class="form-select" aria-label="Default select example">
+                        <option value="0" selected>0</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                    </select>
+                </div>
+                <div class=" mt-3 col-12 mb-3">
+                    <label for="Nom" class="labelt col-3 form-label">Nom et Prénom*:</label>
+                    <input type="text" name="nom" class="form-control" id="Nom">
+                </div>
+                <div class="col-xl-6 col-12 mb-3">
+                    <label for="Email" class="labelt col-3 form-label">Email*:</label>
+                    <input type="email" name="Email" class="form-control" id="Email">
+                </div>
+                <div class="col-xl-6 col-12 mb-3">
+                    <label for="tel" class="labelt col-3 form-label">Téléphone*:</label>
+                    <input type="text" name="tel" class="form-control" id="Tel">
+                </div>
+                <div class="col-12 mb-3">
+                    <label for="demande" class="labelt col-3 form-label">Votre Demande*:</label>
+                    <textarea cols="500" rows="4" name="demande" class="form-control" id="Demande"></textarea>
+                </div>
+                <div class="row justify-content-between mt-3">
+                    <button class="btn btn-succes color-315F72 rounded-pill col-xl-2 col-4" type="reset"
+                        id="precedent">Annuler</button>
+                    <button class="btn btn-succes color-315F72 rounded-pill col-xl-2 col-4" type="submit"
+                        id="suivant">Envoyer</button>
+                </div>
+            </div>
+        </form>
+    </div>
     <footer>
-        <nav id="navbot"
-            class="navbar navbar-expand bg-danger navbar-dark mt-3 rounded-pill rounded-xs-none ">
+        <nav id="navbot" class="navbar navbar-expand bg-danger navbar-dark mt-3 rounded-pill rounded-xs-none ">
             <div class="collapse navbar-collapse justify-content-center col-12" id="collapsibleNavbar2">
                 <ul class="navbar-nav mx-xl-2">
                     <li class="nav-item">
@@ -126,4 +176,5 @@
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
 </body>
+
 </html>

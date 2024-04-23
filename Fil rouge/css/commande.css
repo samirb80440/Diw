@@ -1,21 +1,22 @@
 #parent {
     display: grid;
-    
+
     grid-template-columns: repeat(5, 1fr);
-    
+
     /*horizontal*/
-    
+
     grid-template-rows: 0.5fr 0, 6fr;
-    
+
     /*vertical*/
     grid-column-gap: 0px;
     grid-row-gap: 0px;
 }
-body{
+
+body {
     background-color: black;
     background-image: url("../images_the_district/fosyyyy.jpg");
     background-size: cover;
-   
+
 }
 
 
@@ -36,7 +37,8 @@ body{
 .couleur {
     color: white
 }
-#text{
+
+#text {
     color: #EB1A1A;
 }
 

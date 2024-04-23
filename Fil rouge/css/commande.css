@@ -13,14 +13,12 @@
 }
 body{
     background-color: black;
+    background-image: url("../images_the_district/fosyyyy.jpg");
+    background-size: cover;
+   
 }
 
-#insertbgimg {
-    background-image: url(../images_the_district/fosyyyy.jpg);
-    background-size: cover;
-    height: 100vh;
-    
-}
+
 
 .card {
     height: 100%;

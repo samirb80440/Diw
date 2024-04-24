@@ -13,16 +13,17 @@ body {
 }
 
 .parallaxe {
-    background-image: url("../images_the_district/ibg.jpg");
+    background-image: url("../images_the_district/fosyyyy.jpg");
+    min-height: 500px;
+
     background-attachment: fixed;
+
     background-position: center;
+
+    background-repeat: no-repeat;
+
     background-size: cover;
-    display: flex;
-                justify-content: center;
-                align-items: center;
-                z-index: -50;
-                margin-top: 0%;
-          }
+}
 .imagebanniere {
     width: 150vw;
     height: 20vw;

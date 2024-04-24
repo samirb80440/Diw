@@ -55,6 +55,7 @@ body {
 #textes2 {
     color: #EB1A1A;
 }
+
 #banniere {
     grid-area: 2 / 1 / 3 / 6;
 }

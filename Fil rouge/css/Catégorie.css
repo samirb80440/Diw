@@ -60,6 +60,7 @@ body {
     width: 19vw;
     background-color: #EB1A1A;
 }
+
 .imageanime {
     transition: 1s ease;
 }
@@ -70,8 +71,8 @@ body {
     transform: scale(1.1);
     transition: 1s ease;
 }
- 
-.h1{
+
+.h1 {
     color: white;
 }
 

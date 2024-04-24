@@ -40,6 +40,21 @@ body {
     color: #EB1A1A;
 }
 
+#texte {
+    color: #EB1A1A;
+}
+
+#textes {
+    color: #EB1A1A;
+}
+
+#textes1 {
+    color: #EB1A1A;
+}
+
+#textes2 {
+    color: #EB1A1A;
+}
 #banniere {
     grid-area: 2 / 1 / 3 / 6;
 }

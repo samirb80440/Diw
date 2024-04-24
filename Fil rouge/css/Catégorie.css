@@ -18,7 +18,6 @@ body {
     height: 20vw;
 }
 
-
 #banniere {
     grid-area: 2 / 1 / 3 / 6;
 }
@@ -60,6 +59,16 @@ body {
     margin-left: 41vw;
     width: 19vw;
     background-color: #EB1A1A;
+}
+.imageanime {
+    transition: 1s ease;
+}
+
+.imageanime:hover {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    transition: 1s ease;
 }
 
 button {

@@ -9,13 +9,11 @@ document.addEventListener("DOMContentLoaded", function () {
       document.getElementById("Nom"),
       "Nom invalide"
     );
-    if (document.getElementById("Prenom") != null) {
-      checkvalide &= verifiltre(
-        /^[A-Za-z]+$/,
-        document.getElementById("Prenom"),
-        "Prénom invalide"
-      );
-    }
+    checkvalide &= verifiltre(
+      /^[A-Za-z]+$/,
+      document.getElementById("Prenom"),
+      "Prénom invalide"
+    );
     checkvalide &= verifiltre(
       /^[_A-Za-z0-9.-]+@[_a-z0-9.-]+.[a-z]{2,4}$/,
       document.getElementById("Email"),

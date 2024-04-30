@@ -7,15 +7,8 @@ document.addEventListener("DOMContentLoaded", function () {
     checkvalide &= verifiltre(
       /^[A-Za-z]+$/,
       document.getElementById("Nom"),
-      "Nom invalide"
+      "Nom et Prenom invalide"
     );
-    if (document.getElementById("Prenom") != null) {
-      checkvalide &= verifiltre(
-        /^[A-Za-z]+$/,
-        document.getElementById("Prenom"),
-        "Prénom invalide"
-      );
-    }
     checkvalide &= verifiltre(
       /^[_A-Za-z0-9.-]+@[_a-z0-9.-]+.[a-z]{2,4}$/,
       document.getElementById("Email"),

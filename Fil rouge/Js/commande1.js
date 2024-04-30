@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", function () {
     e.preventDefault();
     let checkvalide = true;
     checkvalide &= verifiltre(
-      /^[A-Za-z]+$/,
+      /^[A-Za-z ]+$/,
       document.getElementById("Nom"),
       "Nom et Prenom invalide"
     );

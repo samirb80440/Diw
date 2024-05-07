@@ -32,7 +32,6 @@ document.addEventListener("DOMContentLoaded", function () {
     console.log(checkvalide);
     if (checkvalide) {
       form.submit();
-      console.log("ça passe");
     }
   });
 });

@@ -27,11 +27,6 @@ body {
     margin-top: 10vw;
 }
 
-.imagecat {
-    border-radius: 16%;
-    width: 10, 5vw;
-    height: 20vh;
-}
 
 .card {
     height: 100%;
@@ -51,9 +46,9 @@ body {
 
 
 .imageplat {
-    padding: 0;
+
     border-radius: 16%;
-    width: 18vw;
+    width: 10, 5vw;
     height: 20vh;
 }
 

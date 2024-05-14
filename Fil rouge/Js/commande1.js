@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", function () {
     checkvalide &= verifiltre(
       /^[A-Za-z]+$/,
       document.getElementById("Adresse"),
-      "veuillez ecrire votre adresse"
+      "veuillez écrire votre adresse"
     );
     console.log(checkvalide);
     if (checkvalide) {

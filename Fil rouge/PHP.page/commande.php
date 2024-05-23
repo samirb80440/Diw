@@ -6,44 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/commande.css">
+    <link rel="stylesheet" href="/css/commande.css">
     <link rel="shortcut icon" type="image/png" href="images_the_district/the_district_brand/favicon.png">
     <title>District</title>
 </head>
 
 <body>
-    <header id="navbar">
-        <nav class="navbar navbar-expand-sm bg-danger navbar-dark">
-            <a class="navbar-brand" href="#"><img src="images_the_district/the_district_brand/logo_transparent.png"
-                    width="50" class="d-inline-block align-text-top" alt="navicon"></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse  justify-content-center col-6" id="collapsibleNavbar">
-                <ul class="navbar-nav">
-                    <li class=" textnav nav-item px-5">
-                        <a class="nav-link " href="index.html" title="Accueil">Accueil</a>
-                    </li>
-                    <li class=" textnav nav-item px-5">
-                        <a class="nav-link" href="Categorie.html" title="Categorie">Categorie</a>
-                    </li>
-                    <li class="textnav nav-item px-5">
-                        <a class="nav-link active" href="#" title="Plat">Plat</a>
-                    </li>
-                    <li class="textnav nav-item px-5">
-                        <a class="nav-link" href="contact.html" title="Contact">Contact</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-    </header>
+<?php 
+    require_once('header.php')
+    ?>
     <div class="container">
         <form id="form" action="http://bienvu.net/script.php" method="post" class="container mt-3">
             <div class="row justify-content-center">
                 <div class="block_text-img col-12 col-xl-5 mt-3">
                     <div class="row card">
                         <img class="card-img-top imageplat img-fluid col-xl-6"
-                            src="images_the_district/food/cesar_salad.jpg" alt="platsalade1">
+                            src="/images_the_district/food/cesar_salad.jpg" alt="platsalade1">
                         <div class="col-xl-4 card-body color">
                             <h3 class="card-title">Salade 1</h3>
                             <p class="card-text">Plat Plat Plat Plat</p>
@@ -99,39 +77,7 @@
             </div>
         </form>
     </div>
-    <footer>
-        <nav id="navbot" class="navbar navbar-expand bg-danger navbar-dark mt-3 rounded-pill rounded-xs-none">
-            <div class="collapse navbar-collapse justify-content-center col-12" id="collapsibleNavbar2">
-                <ul class="navbar-nav mx-xl-2">
-                    <li class="nav-item">
-                        <a class="nav-link active" href="#" title="Accueil"><img
-                                src="images_the_district/icons8-facebook-50.png" class="img-fluid align-text-top"
-                                alt="navinsta"></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#" title="Categorie"><img
-                                src="images_the_district/icons8-pinterest-50.png"
-                                class="img-fluid d-inline-block align-text-top" alt="navfb"></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#" title="Plat"><img
-                                src="images_the_district/icons8-snapchat-circled-logo-50.png"
-                                class="img-fluid d-inline-block align-text-top" alt="navtt"></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#" title="contact"><img
-                                src="images_the_district/icons8-twitter-50.png"
-                                class="img-fluid d-inline-block align-text-top" alt="navx"></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#" title="contact"><img
-                                src="images_the_district/icons8-instagram-50.png"
-                                class="img-fluid d-inline-block align-text-top" alt="navyt"></a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-    </footer>
+    <?php require_once('footer.php') ?>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"

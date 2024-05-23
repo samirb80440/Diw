@@ -5,40 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/Plat.css">
+    <link rel="stylesheet" href="/css/Plat.css">
     <link rel="shortcut icon" type="image/png" href="images_the_district/the_district_brand/favicon.png">
     <title>District</title>
 </head>
 <body>
-    <header id="navbar">
-        <nav class="navbar navbar-expand-sm bg-danger navbar-dark">
-            <a class="navbar-brand" href="#"><img src="images_the_district/the_district_brand/logo_transparent.png"
-                    width="50" class="d-inline-block align-text-top" alt="navicon"></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse  justify-content-center col-6" id="collapsibleNavbar">
-                <ul class="navbar-nav">
-                    <li class=" textnav nav-item px-5">
-                        <a class="nav-link " href="index.html" title="Accueil">Accueil</a>
-                    </li>
-                    <li class=" textnav nav-item px-5">
-                        <a class="nav-link" href="Categorie.html" title="Categorie">Categorie</a>
-                    </li>
-                    <li class="textnav nav-item px-5">
-                        <a class="nav-link active" href="#" title="Plat">Plat</a>
-                    </li>
-                    <li class="textnav nav-item px-5">
-                        <a class="nav-link" href="contact.html" title="Contact">Contact</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-    </header>
+<?php 
+    require_once('header.php')
+    ?>
     <div class="container-fluid p-0">
         <div id="parent">
             <div id="banniere" class="row g-0">
-                <img class="imagebanniere img-fluid" src="images_the_district/fosyyyy.jpg" alt="banniere">
+                <img class="imagebanniere img-fluid" src="/images_the_district/fosyyyy.jpg" alt="banniere">
             </div>
         </div>
     </div>
@@ -47,7 +25,7 @@
             <div class="block_text-img col-12 col-xl-5 mt-3">
                 <div class="row card">
                     <img class="card-img-top imageplat img-fluid col-xl-6"
-                        src="images_the_district/food/cesar_salad.jpg" alt="platsalade1">
+                        src="/images_the_district/food/cesar_salad.jpg" alt="platsalade1">
                     <div class="col-xl-4 card-body color">
                         <h3 class="card-title">Salade 1</h3>
                         <p class="card-text">Plat Plat Plat Plat</p>
@@ -57,7 +35,7 @@
             </div>
             <div class="block_text-img col-12 col-xl-5 mt-3">
                 <div class="row card">
-                    <img class="card-img-top imageplat img-fluid col-xl-6" src="images_the_district/food/salad1.png"
+                    <img class="card-img-top imageplat img-fluid col-xl-6" src="/images_the_district/food/salad1.png"
                         alt="platsalade2">
                     <div class="col-xl-4 card-body color">
                         <h4 class="card-title">Salade 2</h4>
@@ -71,7 +49,7 @@
             <div class="block_text-img col-12 col-xl-5 mt-3">
                 <div class="row card">
                     <img class="card-img-top imageplat img-fluid col-xl-6 "
-                        src="images_the_district/food/Food-Name-8298.jpg" alt="platpizzalegume">
+                        src="/images_the_district/food/Food-Name-8298.jpg" alt="platpizzalegume">
                     <div class="col-xl-4 card-body color">
                         <h4 class="card-title">Pizza epinard</h4>
                         <p class="card-text">Plat Plat Plat</p>
@@ -82,7 +60,7 @@
             <div class="block_text-img col-12 col-xl-5 mt-3">
                 <div class="row card">
                     <img class="card-img-top imageplat img-fluid col-xl-6"
-                        src="images_the_district/food/spaghetti-legumes.jpg" alt="platspalegume">
+                        src="/images_the_district/food/spaghetti-legumes.jpg" alt="platspalegume">
                     <div class="col-xl-4 card-body color">
                         <h4 class="card-title">Pate veggie</h4>
                         <p class="card-text">Plat Plat Plat</p>
@@ -98,7 +76,7 @@
             <div class="block_text-img col-12 col-xl-5 mt-3">
                 <div class="row card">
                     <img class="card-img-top imageplat img-fluid col-xl-6"
-                        src="images_the_district/food/cheesburger.jpg" alt="platcheesburger">
+                        src="/images_the_district/food/cheesburger.jpg" alt="platcheesburger">
                     <div class="col-xl-4 card-body color">
                         <h4 class="card-title">Burger</h4>
                         <p class="card-text">Plat Plat Plat</p>
@@ -110,7 +88,7 @@
             <div class="block_text-img col-12 col-xl-5 mt-3">
                 <div class="row card">
                     <img class="card-img-top imageplat img-fluid col-xl-6"
-                        src="images_the_district/food/Food-Name-433.jpeg" alt="platcheesburgermcdo">
+                        src="/images_the_district/food/Food-Name-433.jpeg" alt="platcheesburgermcdo">
                     <div class="col-xl-4 card-body color">
                         <h4 class="card-title">Burger</h4>
                         <p class="card-text">Plat Plat Plat</p>
@@ -122,7 +100,7 @@
         <div class="row justify-content-between mt-3">
             <div class="block_text-img col-12 col-xl-5 mt-3">
                 <div class="row card">
-                    <img class="card-img-top imageplat img-fluid col-xl-6" src="images_the_district/food/hamburger.jpg"
+                    <img class="card-img-top imageplat img-fluid col-xl-6" src="/images_the_district/food/hamburger.jpg"
                         alt="plathamburger1">
                     <div class="col-xl-4 card-body color">
                         <h4 class="card-title">Burger</h4>
@@ -134,7 +112,7 @@
             <div class="block_text-img col-12 col-xl-5 mt-3">
                 <div class="row card">
                     <img class="card-img-top imageplat img-fluid col-xl-6"
-                        src="images_the_district/food/Food-Name-6340.jpg" alt="plathamburger2">
+                        src="/images_the_district/food/Food-Name-6340.jpg" alt="plathamburger2">
                     <div class="col-xl-4 card-body color">
                         <h4 class="card-title">Burger</h4>
                         <p class="card-text">Plat Plat Plat</p>
@@ -149,7 +127,7 @@
             <div class="block_text-img col-12 col-xl-5 mt-3">
                 <div class="row card">
                     <img class="card-img-top imageplat img-fluid col-xl-6"
-                        src="images_the_district/food/pizza-margherita.jpg" alt="platmargherita">
+                        src="/images_the_district/food/pizza-margherita.jpg" alt="platmargherita">
                     <div class="col-xl-4 card-body color">
                         <h4 class="card-title">Pizza</h4>
                         <p class="card-text">Plat Plat Plat</p>
@@ -160,7 +138,7 @@
             <div class="block_text-img col-12 col-xl-5 mt-3 ">
                 <div class="row card">
                     <img class="card-img-top imageplat img-fluid col-xl-6"
-                        src="images_the_district/food/pizza-salmon.png" alt="platsalmon">
+                        src="/images_the_district/food/pizza-salmon.png" alt="platsalmon">
                     <div class="col-xl-4 card-body color ">
                         <h4 class="card-title">Pizza saumon</h4>
                         <p class="card-text">Plat Plat Plat</p>
@@ -173,7 +151,7 @@
             <div class="block_text-img col-12 col-xl-5 mt-3">
                 <div class="row card">
                     <img class="card-img-top imageplat img-fluid col-xl-6"
-                        src="images_the_district/food/Food-Name-8298.jpg" alt="platpizzaveggie">
+                        src="/images_the_district/food/Food-Name-8298.jpg" alt="platpizzaveggie">
                     <div class="col-xl-4 card-body color">
                         <h4 class="card-title">Pizza epinard</h4>
                         <p class="card-text">Plat Plat Plat</p>
@@ -188,7 +166,7 @@
             <div class="block_text-img col-12 col-xl-5 mt-3">
                 <div class="row card">
                     <img class="card-img-top imageplat img-fluid col-xl-6"
-                        src="images_the_district/food/Food-Name-3461.jpg" alt="platwrap2">
+                        src="/images_the_district/food/Food-Name-3461.jpg" alt="platwrap2">
                     <div class="col-xl-4 card-body color">
                         <h4 class="card-title">Wrap brochée</h4>
                         <p class="card-text">Plat Plat Plat</p>
@@ -199,7 +177,7 @@
             <div class="block_text-img col-12 col-xl-5 mt-3">
                 <div class="row card">
                     <img class="card-img-top imageplat img-fluid col-xl-6"
-                        src="images_the_district/food/buffalo-chicken.webp" alt="platwrap1">
+                        src="/images_the_district/food/buffalo-chicken.webp" alt="platwrap1">
                     <div class="col-xl-4 card-body color">
                         <h4 class="card-title">Wrap effilochée</h4>
                         <p class="card-text">Plat Plat Plat</p>
@@ -212,7 +190,7 @@
             <div class="block_text-img col-12 col-xl-5 mt-3">
                 <div class="row card">
                     <img class="card-img-top imageplat img-fluid col-xl-6"
-                        src="images_the_district/food/Food-Name-3631.jpg" alt="platsandwich">
+                        src="/images_the_district/food/Food-Name-3631.jpg" alt="platsandwich">
                     <div class="col-xl-4 card-body color">
                         <h4 class="card-title">Pain au fromage</h4>
                         <p class="card-text">Plat Plat Plat</p>
@@ -227,7 +205,7 @@
             <div class="block_text-img col-12 col-xl-5 mt-3">
                 <div class="row card">
                     <img class="card-img-top imageplat img-fluid col-xl-6"
-                        src="images_the_district/food/tagliatelles-saumon.webp" alt="platspasaumon">
+                        src="/images_the_district/food/tagliatelles-saumon.webp" alt="platspasaumon">
                     <div class="col-xl-4 card-body color">
                         <h4 class="card-title">Pate au saumon</h4>
                         <p class="card-text">Plat Plat Plat</p>
@@ -238,7 +216,7 @@
             <div class="block_text-img col-12 col-xl-5 mt-3">
                 <div class="row card">
                     <img class="card-img-top imageplat img-fluid col-xl-6"
-                        src="images_the_district/food/spaghetti-legumes.jpg" alt="platspalegume">
+                        src="/images_the_district/food/spaghetti-legumes.jpg" alt="platspalegume">
                     <div class="col-xl-4 card-body color">
                         <h4 class="card-title">Pate veggie</h4>
                         <p class="card-text">Plat Plat Plat</p>
@@ -251,7 +229,7 @@
             <div class="block_text-img col-12 col-xl-5 mt-3">
                 <div class="row card">
                     <img class="card-img-top imageplat img-fluid col-xl-6"
-                        src="images_the_district/food/lasagnes_viande.jpg" alt="platlasagne">
+                        src="/images_the_district/food/lasagnes_viande.jpg" alt="platlasagne">
                     <div class="col-xl-4 card-body color">
                         <h4 class="card-title">Lasagne</h4>
                         <p class="card-text">Plat Plat Plat</p>
@@ -283,40 +261,8 @@
             <button class="btn btn-succes color-B09595 rounded-pill col-3" type="button" id="suivant"> suivant</button>
         </div>
     </div>
-    <footer>
-        <nav id="navbot" class="navbar navbar-expand bg-danger navbar-dark mt-3 rounded-pill rounded-xs-none ">
-            <div class="collapse navbar-collapse justify-content-center col-12" id="collapsibleNavbar2">
-                <ul class="navbar-nav mx-xl-2">
-                    <li class="nav-item">
-                        <a class="nav-link active" href="#" title="facebook"><img
-                                src="images_the_district/icons8-facebook-50.png" class="img-fluid align-text-top"
-                                alt="navinsta"></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#" title="Pinterest"><img
-                                src="images_the_district/icons8-pinterest-50.png"
-                                class="img-fluid d-inline-block align-text-top" alt="navfb"></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#" title="Snapchat"><img
-                                src="images_the_district/icons8-snapchat-circled-logo-50.png"
-                                class="img-fluid d-inline-block align-text-top" alt="navtt"></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#" title="Twitter"><img
-                                src="images_the_district/icons8-twitter-50.png"
-                                class="img-fluid d-inline-block align-text-top" alt="navx"></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#" title="Intagram"><img
-                                src="images_the_district/icons8-instagram-50.png"
-                                class="img-fluid d-inline-block align-text-top" alt="navyt"></a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-    </footer>
-    <script src="Js/carouselplat1.js"></script>
+    <?php require_once('footer.php') ?>
+    <script src="/Js/carouselplat1.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"

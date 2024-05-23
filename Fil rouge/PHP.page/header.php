@@ -7,19 +7,19 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
 
-            <div class="collapse navbar-collapse justify-content-center col-12" id="collapsibleNavbar">
+            <div class="collapse navbar-collapse justify-content-center col-6" id="collapsibleNavbar">
                 <ul class="navbar-nav">
                     <li class="textnav nav-item px-5">
-                        <a class="nav-link active" href="#" title="Accueil">Accueil</a>
+                        <a class="nav-link active" href="index.php" title="Accueil">Accueil</a>
                     </li>
                     <li class="textnav nav-item px-5">
-                        <a class="nav-link" href="/Categorie.html" title="Categorie">Categorie</a>
+                        <a class="nav-link" href="Categorie.php" title="Categorie">Categorie</a>
                     </li>
                     <li class="textnav nav-item px-5">
-                        <a class="nav-link" href="/Plat.html" title="Plat">Plat</a>
+                        <a class="nav-link" href="Plat.php" title="Plat">Plat</a>
                     </li>
                     <li class="textnav nav-item px-5">
-                        <a class="nav-link" href="/contact.html" title="Contact">Contact</a>
+                        <a class="nav-link" href="contact.php" title="Contact">Contact</a>
                     </li>
                 </ul>
             </div>

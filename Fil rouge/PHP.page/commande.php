@@ -15,6 +15,9 @@
 <?php 
     require_once('header.php')
     ?>
+       <?php
+    echo $_SERVER['REQUEST_URI']
+    ?>
     <div class="container">
         <form id="form" action="http://bienvu.net/script.php" method="post" class="container mt-3">
             <div class="row justify-content-center">

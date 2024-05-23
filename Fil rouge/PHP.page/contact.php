@@ -22,6 +22,9 @@
             </div>
         </div>
     </div>
+    <?php
+    echo $_SERVER['REQUEST_URI']
+    ?>
     <div id="insertbgimg">
         <div id="insertcommande"></div>
         <form id="form" action="http://bienvu.net/script.php" method="post">

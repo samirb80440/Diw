@@ -24,6 +24,9 @@
             </form>
         </div>
     </div>
+    <?php
+    echo $_SERVER['REQUEST_URI']
+    ?>
     <div class="parallaxe">
     <div class="container">
         <div class="row g-0 mt-xl-3">

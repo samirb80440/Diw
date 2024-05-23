@@ -20,6 +20,9 @@
             </div>
         </div>
     </div>
+    <?php
+    echo $_SERVER['REQUEST_URI']
+    ?>
     <div id="pageveggie" class="container">
         <div class="row justify-content-between mt-3">
             <div class="block_text-img col-12 col-xl-5 mt-3">

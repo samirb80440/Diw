@@ -29,7 +29,7 @@
                     <div class="col-xl-4 card-body color">
                         <h3 class="card-title">Salade 1</h3>
                         <p class="card-text">Plat Plat Plat Plat</p>
-                        <a href="commande.html" class="btn btn-light">Commander</a>
+                        <a href="commande.php" class="btn btn-light">Commander</a>
                     </div>
                 </div>
             </div>
@@ -40,7 +40,7 @@
                     <div class="col-xl-4 card-body color">
                         <h4 class="card-title">Salade 2</h4>
                         <p class="card-text">Plat Plat Plat</p>
-                        <a href="commande.html" class="btn btn-light">Commander</a>
+                        <a href="commande.php" class="btn btn-light">Commander</a>
                     </div>
                 </div>
             </div>
@@ -53,7 +53,7 @@
                     <div class="col-xl-4 card-body color">
                         <h4 class="card-title">Pizza epinard</h4>
                         <p class="card-text">Plat Plat Plat</p>
-                        <a href="commande.html" class="btn btn-light">Commander</a>
+                        <a href="commande.php" class="btn btn-light">Commander</a>
                     </div>
                 </div>
             </div>
@@ -64,7 +64,7 @@
                     <div class="col-xl-4 card-body color">
                         <h4 class="card-title">Pate veggie</h4>
                         <p class="card-text">Plat Plat Plat</p>
-                        <a href="commande.html" class="btn btn-light">Commander</a>
+                        <a href="commande.php" class="btn btn-light">Commander</a>
                     </div>
                 </div>
             </div>
@@ -80,7 +80,7 @@
                     <div class="col-xl-4 card-body color">
                         <h4 class="card-title">Burger</h4>
                         <p class="card-text">Plat Plat Plat</p>
-                        <a href="commande.html" class="btn btn-light">Commander</a>
+                        <a href="commande.php" class="btn btn-light">Commander</a>
                     </div>
                 </div>
             </div>
@@ -92,7 +92,7 @@
                     <div class="col-xl-4 card-body color">
                         <h4 class="card-title">Burger</h4>
                         <p class="card-text">Plat Plat Plat</p>
-                        <a href="commande.html" class="btn btn-light">Commander</a>
+                        <a href="commande.php" class="btn btn-light">Commander</a>
                     </div>
                 </div>
             </div>
@@ -105,7 +105,7 @@
                     <div class="col-xl-4 card-body color">
                         <h4 class="card-title">Burger</h4>
                         <p class="card-text">Plat Plat Plat</p>
-                        <a href="commande.html" class="btn btn-light">Commander</a>
+                        <a href="commande.php" class="btn btn-light">Commander</a>
                     </div>
                 </div>
             </div>
@@ -116,7 +116,7 @@
                     <div class="col-xl-4 card-body color">
                         <h4 class="card-title">Burger</h4>
                         <p class="card-text">Plat Plat Plat</p>
-                        <a href="commande.html" class="btn btn-light">Commander</a>
+                        <a href="commande.php" class="btn btn-light">Commander</a>
                     </div>
                 </div>
             </div>
@@ -131,7 +131,7 @@
                     <div class="col-xl-4 card-body color">
                         <h4 class="card-title">Pizza</h4>
                         <p class="card-text">Plat Plat Plat</p>
-                        <a href="commande.html" class="btn btn-light">Commander</a>
+                        <a href="commande.php" class="btn btn-light">Commander</a>
                     </div>
                 </div>
             </div>
@@ -142,7 +142,7 @@
                     <div class="col-xl-4 card-body color ">
                         <h4 class="card-title">Pizza saumon</h4>
                         <p class="card-text">Plat Plat Plat</p>
-                        <a href="commande.html" class="btn btn-light">Commander</a>
+                        <a href="commande.php" class="btn btn-light">Commander</a>
                     </div>
                 </div>
             </div>
@@ -155,7 +155,7 @@
                     <div class="col-xl-4 card-body color">
                         <h4 class="card-title">Pizza epinard</h4>
                         <p class="card-text">Plat Plat Plat</p>
-                        <a href="commande.html" class="btn btn-light">Commander</a>
+                        <a href="commande.php" class="btn btn-light">Commander</a>
                     </div>
                 </div>
             </div>
@@ -170,7 +170,7 @@
                     <div class="col-xl-4 card-body color">
                         <h4 class="card-title">Wrap brochée</h4>
                         <p class="card-text">Plat Plat Plat</p>
-                        <a href="commande.html" class="btn btn-light">Commander</a>
+                        <a href="commande.php class="btn btn-light">Commander</a>
                     </div>
                 </div>
             </div>
@@ -181,7 +181,7 @@
                     <div class="col-xl-4 card-body color">
                         <h4 class="card-title">Wrap effilochée</h4>
                         <p class="card-text">Plat Plat Plat</p>
-                        <a href="commande.html" class="btn btn-light">Commander</a>
+                        <a href="commande.php" class="btn btn-light">Commander</a>
                     </div>
                 </div>
             </div>
@@ -194,7 +194,7 @@
                     <div class="col-xl-4 card-body color">
                         <h4 class="card-title">Pain au fromage</h4>
                         <p class="card-text">Plat Plat Plat</p>
-                        <a href="commande.html" class="btn btn-light">Commander</a>
+                        <a href="commande.php" class="btn btn-light">Commander</a>
                     </div>
                 </div>
             </div>
@@ -209,7 +209,7 @@
                     <div class="col-xl-4 card-body color">
                         <h4 class="card-title">Pate au saumon</h4>
                         <p class="card-text">Plat Plat Plat</p>
-                        <a href="commande.html" class="btn btn-light">Commander</a>
+                        <a href="commande.php" class="btn btn-light">Commander</a>
                     </div>
                 </div>
             </div>
@@ -220,7 +220,7 @@
                     <div class="col-xl-4 card-body color">
                         <h4 class="card-title">Pate veggie</h4>
                         <p class="card-text">Plat Plat Plat</p>
-                        <a href="commande.html" class="btn btn-light">Commander</a>
+                        <a href="commande.php" class="btn btn-light">Commander</a>
                     </div>
                 </div>
             </div>
@@ -233,7 +233,7 @@
                     <div class="col-xl-4 card-body color">
                         <h4 class="card-title">Lasagne</h4>
                         <p class="card-text">Plat Plat Plat</p>
-                        <a href="commande.html" class="btn btn-light">Commander</a>
+                        <a href="commande.php" class="btn btn-light">Commander</a>
                     </div>
                 </div>
             </div>
@@ -248,7 +248,7 @@
                     <div class="col-xl-4 card-body">
                         <h4 class="card-title">sushie</h4>
                         <p class="card-text">Plat Plat Plat</p>
-                        <a href="commande.html" class="btn btn-light">Commander</a>
+                        <a href="commande.php" class="btn btn-light">Commander</a>
                     </div>
                 </div>
             </div>

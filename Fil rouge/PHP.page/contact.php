@@ -24,7 +24,7 @@
     </div>
     <div id="insertbgimg">
         <div id="insertcommande"></div>
-        <form id="form" action="http://bienvu.net/script.php" method="post">
+        <form id="form" action="contactscript.php" method="post">
             <div class="container mt-3">
                 <div class="row mb-3">
                     <div class="col-6 mb-3">

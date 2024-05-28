@@ -64,7 +64,7 @@
                     </div>
                     <div class="col-12 mb-3">
                         <label for="demande" class="col-3 couleur form-label">Votre Adresse*:</label>
-                        <textarea cols="500" rows="4" name="demande" class="form-control" id="Adresse"></textarea>
+                        <textarea cols="500" rows="4" name="adresse" class="form-control" id="Adresse"></textarea>
                         <p id="textes2">Ce champs est obligatore</p>
                     </div>
                     <div class="container">

@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", function () {
       "numéros de téléphone invalide"
     );
     checkvalide &= verifiltre(
-      /^[A-Za-z]+$/,
+      /^[[_A-Za-z0-9 ]+$/,
       document.getElementById("Adresse"),
       "veuillez écrire votre adresse"
     );

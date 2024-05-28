@@ -15,8 +15,8 @@
 <?php 
     require_once('header.php')
     ?>
-    <div class="container">
-        <form id="form" action="http://bienvu.net/script.php" method="post" class="container mt-3">
+ <div class="container">
+        <form id="form" action="commandescript.php" method="post" class="container mt-3">
             <div class="row justify-content-center">
                 <div class="block_text-img col-12 col-xl-5 mt-3">
                     <div class="row card">

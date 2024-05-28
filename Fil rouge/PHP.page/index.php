@@ -27,43 +27,43 @@
     <div class="parallaxe">
     <div class="container">
         <div class="row g-0 mt-xl-3">
-            <div class="col-12 col-sm-6 col-xl-4 mt-3">
+            <div class="col-12 col-sm-6 col-lg-4 mt-3">
                 <a href="categorie/salade.html">
                     <img class="imageanime imagecat img-fluid" src="/images_the_district/food/cesar_salad.jpg" alt="salad"></a>
             </div>
-            <div class="col-12 col-sm-6 col-xl-4 mt-3">
+            <div class="col-12 col-sm-6 col-lg-4 mt-3">
                 <a href="categorie/hamburger.html">
                     <img class="imageanime imagecat img-fluid" src="/images_the_district/food/cheesburger.jpg" alt="burger"></a>
             </div>
-            <div class="col-12 col-sm-6 col-xl-4 mt-3">
+            <div class="col-12 col-sm-6 col-lg-4 mt-3">
                 <a href="categorie/pizza.html">
                     <img class="imageanime imagecat img-fluid" src="/images_the_district/menu-pizza.jpg" alt="pizza"></a>
             </div>
         </div>
-        <div class="row g-0 mt-xl-3">
-            <div class="col-12 col-sm-6 col-xl-4 mt-3">
+        <div class="row g-0 mt-lg-3">
+            <div class="col-12 col-sm-6 col-lg-4 mt-3">
                 <a href="categorie/veggie.html">
                     <img class="imageanime imagecat img-fluid" src="/images_the_district/food/courgettes_farcies.jpg" alt="courgettes"></a>
             </div>
-            <div class="col-12 col-sm-6 col-xl-4 mt-3">
+            <div class="col-12 col-sm-6 col-lg-4 mt-3">
                 <a href="categorie/sandwich.html">
                     <img class="imageanime imagecat img-fluid" src="/images_the_district/category/sandwich_cat.jpg" alt="sandwich"></a>
             </div>
-            <div class="col-12 col-sm-6 col-xl-4 mt-3">
+            <div class="col-12 col-sm-6 col-lg-4 mt-3">
                 <a href="categorie/wrap.html">
                     <img class="imageanime imagecat img-fluid" src="/images_the_district/food/Food-Name-3461.jpg" alt="wrap"></a>
             </div>
         </div>
-        <div class="row g-0 mt-xl-3">
-            <div class="col-12 col-sm-6 col-xl-4 mt-3">
+        <div class="row g-0 mt-lg-3 ">
+            <div class="col-12 col-sm-6 col-lg-2 mt-3" style >
                 <a href="categorie/hamburger.html">
                     <img class="imageanime imageplat img-fluid" src="/images_the_district/food/Food-Name-6340.jpg" alt="burger"></a>
             </div>
-            <div class="col-12 col-sm-6 col-xl-4 mt-3">
+            <div class="col-12 col-sm-6 col-lg-2 mt-3">
                 <a href="categorie/veggie.html">
                     <img class="imageanime imageplat img-fluid" src="/images_the_district/food/spaghetti-legumes.jpg" alt="spagetti"></a>
             </div>
-            <div class="col-12 d-sm-none d-xl-flex col-xl-4 mt-3">
+            <div class="col-12 d-sm-none d-lg-flex col-lg-2 mt-3">
                 <a href="categorie/pasta.html">
                     <img class="imageanime imageplat img-fluid" src="/images_the_district/food/lasagnes_viande.jpg" alt="lasagnes"> </a>
             </div>

@@ -22,7 +22,7 @@
     </div>
     <div id="pageveggie" class="container">
         <div class="row justify-content-between mt-3">
-            <div class="block_text-img col-12 col-xl-5 mt-3">
+            <div class="block_text-img col-12 col-lg-5 mt-3 ">
                 <div class="row card">
                     <img class="card-img-top imageplat img-fluid col-xl-6"
                         src="/images_the_district/food/cesar_salad.jpg" alt="platsalade1">
@@ -33,7 +33,7 @@
                     </div>
                 </div>
             </div>
-            <div class="block_text-img col-12 col-xl-5 mt-3">
+            <div class="block_text-img col-12 col-lg-5 mt-3">
                 <div class="row card">
                     <img class="card-img-top imageplat img-fluid col-xl-6" src="/images_the_district/food/salad1.png"
                         alt="platsalade2">
@@ -46,7 +46,7 @@
             </div>
         </div>
         <div class="row justify-content-between mt-3">
-            <div class="block_text-img col-12 col-xl-5 mt-3">
+            <div class="block_text-img col-12 col-lg-5 mt-3">
                 <div class="row card">
                     <img class="card-img-top imageplat img-fluid col-xl-6 "
                         src="/images_the_district/food/Food-Name-8298.jpg" alt="platpizzalegume">
@@ -57,7 +57,7 @@
                     </div>
                 </div>
             </div>
-            <div class="block_text-img col-12 col-xl-5 mt-3">
+            <div class="block_text-img col-12 col-lg-5 mt-3">
                 <div class="row card">
                     <img class="card-img-top imageplat img-fluid col-xl-6"
                         src="/images_the_district/food/spaghetti-legumes.jpg" alt="platspalegume">
@@ -73,7 +73,7 @@
     <div id="checkplathtml" class="row justify-content-center"></div>
     <div id="pagehamburger" class="container">
         <div class="row justify-content-between mt-3">
-            <div class="block_text-img col-12 col-xl-5 mt-3">
+            <div class="block_text-img col-12 col-lg-5 mt-3">
                 <div class="row card">
                     <img class="card-img-top imageplat img-fluid col-xl-6"
                         src="/images_the_district/food/cheesburger.jpg" alt="platcheesburger">
@@ -98,7 +98,7 @@
             </div>
         </div>
         <div class="row justify-content-between mt-3">
-            <div class="block_text-img col-12 col-xl-5 mt-3">
+            <div class="block_text-img col-12 col-lg-5 mt-3">
                 <div class="row card">
                     <img class="card-img-top imageplat img-fluid col-xl-6" src="/images_the_district/food/hamburger.jpg"
                         alt="plathamburger1">
@@ -109,7 +109,7 @@
                     </div>
                 </div>
             </div>
-            <div class="block_text-img col-12 col-xl-5 mt-3">
+            <div class="block_text-img col-12 col-lg-5 mt-3">
                 <div class="row card">
                     <img class="card-img-top imageplat img-fluid col-xl-6"
                         src="/images_the_district/food/Food-Name-6340.jpg" alt="plathamburger2">
@@ -124,7 +124,7 @@
     </div>
     <div id="pagepizza" class="container">
         <div class="row justify-content-between mt-3">
-            <div class="block_text-img col-12 col-xl-5 mt-3">
+            <div class="block_text-img col-12 col-lg-5 mt-3">
                 <div class="row card">
                     <img class="card-img-top imageplat img-fluid col-xl-6"
                         src="/images_the_district/food/pizza-margherita.jpg" alt="platmargherita">
@@ -135,7 +135,7 @@
                     </div>
                 </div>
             </div>
-            <div class="block_text-img col-12 col-xl-5 mt-3 ">
+            <div class="block_text-img col-12 col-lg-5 mt-3 ">
                 <div class="row card">
                     <img class="card-img-top imageplat img-fluid col-xl-6"
                         src="/images_the_district/food/pizza-salmon.png" alt="platsalmon">
@@ -148,7 +148,7 @@
             </div>
         </div>
         <div class="row justify-content-between mt-3">
-            <div class="block_text-img col-12 col-xl-5 mt-3">
+            <div class="block_text-img col-12 col-lg-5 mt-3">
                 <div class="row card">
                     <img class="card-img-top imageplat img-fluid col-xl-6"
                         src="/images_the_district/food/Food-Name-8298.jpg" alt="platpizzaveggie">
@@ -163,7 +163,7 @@
     </div>
     <div id="pagewrap" class="container">
         <div class="row justify-content-between mt-3">
-            <div class="block_text-img col-12 col-xl-5 mt-3">
+            <div class="block_text-img col-12 col-lg-5 mt-3">
                 <div class="row card">
                     <img class="card-img-top imageplat img-fluid col-xl-6"
                         src="/images_the_district/food/Food-Name-3461.jpg" alt="platwrap2">
@@ -202,7 +202,7 @@
     </div>
     <div id="pagepate" class="container">
         <div class="row justify-content-between mt-3">
-            <div class="block_text-img col-12 col-xl-5 mt-3">
+            <div class="block_text-img col-12 col-lg-5 mt-3">
                 <div class="row card">
                     <img class="card-img-top imageplat img-fluid col-xl-6"
                         src="/images_the_district/food/tagliatelles-saumon.webp" alt="platspasaumon">
@@ -213,7 +213,7 @@
                     </div>
                 </div>
             </div>
-            <div class="block_text-img col-12 col-xl-5 mt-3">
+            <div class="block_text-img col-12 col-lg-5 mt-3">
                 <div class="row card">
                     <img class="card-img-top imageplat img-fluid col-xl-6"
                         src="/images_the_district/food/spaghetti-legumes.jpg" alt="platspalegume">
@@ -226,7 +226,7 @@
             </div>
         </div>
         <div class="row justify-content-between mt-3">
-            <div class="block_text-img col-12 col-xl-5 mt-3">
+            <div class="block_text-img col-12 col-lg-5 mt-3">
                 <div class="row card">
                     <img class="card-img-top imageplat img-fluid col-xl-6"
                         src="/images_the_district/food/lasagnes_viande.jpg" alt="platlasagne">
@@ -241,7 +241,7 @@
     </div>
     <div id="pageasian" class="container">
         <div class="row justify-content-between mt-3">
-            <div class="block_text-img col-12 col-xl-5 mt-3">
+            <div class="block_text-img col-12 col-lg-5 mt-3">
                 <div class="row card">
                     <img class="card-img-top imageplat img-fluid col-xl-6"
                         src="/images_the_district/category/asian_food_cat.jpg" alt="platsushie">

@@ -49,7 +49,7 @@
                 <div class="row mb-3">
                     <div class="col-12 mb-3">
                         <label for="Nom" class="col-3 couleur form-label">Nom et Prenom*:</label>
-                        <input type="text" name="nom" class="form-control" id="Nom">
+                        <input type="text" name="nomprenom" class="form-control" id="Nom">
                         <p id="texte">Ce champs est obligatore</p>
                     </div>
                     <div class="col-md-6 col-12 mb-3">

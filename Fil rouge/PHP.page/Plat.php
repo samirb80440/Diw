@@ -85,7 +85,7 @@
                 </div>
             </div>
 
-            <div class="block_text-img col-12 col-xl-5 mt-3">
+            <div class="block_text-img col-12 col-lg-5 mt-3">
                 <div class="row card">
                     <img class="card-img-top imageplat img-fluid col-xl-6"
                         src="/images_the_district/food/Food-Name-433.jpeg" alt="platcheesburgermcdo">
@@ -174,7 +174,7 @@
                     </div>
                 </div>
             </div>
-            <div class="block_text-img col-12 col-xl-5 mt-3">
+            <div class="block_text-img col-12 col-lg-5 mt-3">
                 <div class="row card">
                     <img class="card-img-top imageplat img-fluid col-xl-6"
                         src="/images_the_district/food/buffalo-chicken.webp" alt="platwrap1">
@@ -187,7 +187,7 @@
             </div>
         </div>
         <div class="row justify-content-between mt-3">
-            <div class="block_text-img col-12 col-xl-5 mt-3">
+            <div class="block_text-img col-12 col-lg-5 mt-3">
                 <div class="row card">
                     <img class="card-img-top imageplat img-fluid col-xl-6"
                         src="/images_the_district/food/Food-Name-3631.jpg" alt="platsandwich">

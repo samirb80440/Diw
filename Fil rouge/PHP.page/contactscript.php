@@ -6,7 +6,7 @@ session_start();
 $infoscommande = "\nnom:".$_REQUEST['nom']."prenom:".$_REQUEST['prenom'].", email :".$_REQUEST['Email'].", telephone :".$_REQUEST['tel'].",demande du client :".$_REQUEST['demande'].", date et heure de la commande :".date("d/m/Y H-m-s");
 
      // Ouverture en écriture seule 
-     $fp = fopen("AAAA-MM-JJ-HH-MM.txt", "a"); 
+     $fp = fopen("AAA-MM-JJ-HH-MM.txt", "a"); 
      
      // Ecriture du contenu ($myVar) 
      fputs($fp, $infoscommande); 
